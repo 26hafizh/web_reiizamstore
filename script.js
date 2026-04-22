@@ -524,7 +524,7 @@ const defaultConfig = {
   secondary_action: "#00b4d8",
   font_family: "Outfit",
   font_size: 16,
-  whatsapp_number: "089528344152",
+  whatsapp_number: "085126019233",
   whatsapp_message: defaultWhatsAppMessageTemplate
 };
 
