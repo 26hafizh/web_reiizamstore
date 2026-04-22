@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="none">
+  <defs>
+    <linearGradient id="bstation-bg" x1="46" y1="42" x2="212" y2="216" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#31D9FF" />
+      <stop offset="1" stop-color="#147FFF" />
+    </linearGradient>
+    <linearGradient id="bstation-face" x1="76" y1="80" x2="164" y2="178" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF" />
+      <stop offset="1" stop-color="#F0F7FF" />
+    </linearGradient>
+    <linearGradient id="bstation-accent" x1="84" y1="102" x2="170" y2="170" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#34D8FF" />
+      <stop offset="1" stop-color="#168AFF" />
+    </linearGradient>
+    <filter id="bstation-shadow" x="18" y="18" width="220" height="220" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#08131F" flood-opacity="0.24" />
+    </filter>
+  </defs>
+  <g filter="url(#bstation-shadow)">
+    <rect x="34" y="34" width="188" height="188" rx="56" fill="url(#bstation-bg)" />
+    <path d="M112 90L102 72M144 90L154 72" stroke="#F8FCFF" stroke-width="12" stroke-linecap="round" />
+    <rect x="68" y="88" width="120" height="102" rx="28" fill="url(#bstation-face)" />
+    <path d="M99 126L119 120" stroke="url(#bstation-accent)" stroke-width="12" stroke-linecap="round" />
+    <path d="M157 126L137 120" stroke="url(#bstation-accent)" stroke-width="12" stroke-linecap="round" />
+    <path
+      d="M109 155C113.2 155 115.7 161 120 161C124.3 161 126.8 155 131 155C135.2 155 137.7 161 142 161C146.3 161 148.8 155 153 155"
+      stroke="url(#bstation-accent)"
+      stroke-width="8"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </g>
+</svg>

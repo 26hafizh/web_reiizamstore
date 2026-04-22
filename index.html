@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Reiizam Store - Premium Digital Products</title>
+    <meta
+      name="description"
+      content="Landing page Reiizam Store untuk produk digital premium dengan layout yang lebih rapi, responsif, dan mudah dirawat."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&family=Sora:wght@700;800&family=Space+Grotesk:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js" defer></script>
+    <script src="/_sdk/element_sdk.js" defer></script>
+    <script src="/_sdk/data_sdk.js" defer></script>
+    <script src="script.js?v=20260421-whatsapp-icon-fix-4" defer></script>
+  </head>
+  <body>
+    <div class="site-shell grid-bg" id="app">
+      <div class="gradient-orb orb-a" aria-hidden="true"></div>
+      <div class="gradient-orb orb-b" aria-hidden="true"></div>
+
+      <nav class="site-nav glass fade-up">
+        <div class="brand">
+          <div class="brand-mark" aria-hidden="true">
+            <img
+              src="assets/store-logo.svg"
+              alt="Logo Reiizam Store"
+              class="brand-mark-image"
+              width="40"
+              height="40"
+              loading="eager"
+              fetchpriority="high"
+              decoding="async"
+              onerror="this.onerror=null;this.src='assets/reiizam-mark.svg';"
+            />
+          </div>
+          <div class="brand-lockup">
+            <div class="brand-name" aria-label="Reiizam Store">
+              <span class="brand-name-main">Reiizam</span>
+              <span class="brand-name-accent">Store</span>
+            </div>
+            <div class="brand-copy">Premium digital products</div>
+          </div>
+        </div>
+
+        <a href="#products" class="nav-cta btn-glow accent-gradient" aria-label="Belanja">
+          <i data-lucide="shopping-cart" aria-hidden="true"></i>
+        </a>
+      </nav>
+
+      <header class="hero">
+        <div class="hero-layout">
+          <div class="hero-main glass-strong fade-up fade-up-d1">
+            <div class="hero-topline">
+              <div class="promo-pill">
+                <i data-lucide="sparkles" aria-hidden="true"></i>
+                <span>Diskon hingga 40% &bull; Promo terbatas</span>
+              </div>
+
+              <div class="hero-status-pill" aria-label="Keamanan order">
+                <i data-lucide="shield-check" aria-hidden="true"></i>
+                <span>Garansi aman</span>
+              </div>
+            </div>
+
+            <div class="hero-copy-block">
+              <h1 id="heroTitle" class="hero-title">
+                <span class="hero-line">Aplikasi Premium</span>
+                <span class="hero-line">yang Bikin</span>
+                <span class="hero-line">Aktivitas Makin</span>
+                <span class="hero-line">Lancar</span>
+              </h1>
+
+              <p id="heroSubtitle" class="hero-subtitle">
+                <span class="hero-subline">Belanja di Reiizam Store lebih hemat,</span>
+                <span class="hero-subline">prosesnya cepat, dan</span>
+                <span class="hero-subline">setiap order tetap bergaransi.</span>
+              </p>
+            </div>
+
+            <div class="hero-trust-grid" aria-label="Keunggulan Reiizam Store">
+              <div class="hero-trust-card">
+                <div class="hero-trust-value">Fast</div>
+                <div class="hero-trust-label">Respon admin cepat dan order lebih ringkas.</div>
+              </div>
+              <div class="hero-trust-card">
+                <div class="hero-trust-value">Hemat</div>
+                <div class="hero-trust-label">Pilihan paket premium dengan harga lebih masuk.</div>
+              </div>
+              <div class="hero-trust-card">
+                <div class="hero-trust-value">Aman</div>
+                <div class="hero-trust-label">Setiap pembelian dibantu sampai proses selesai.</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </header>
+
+      <main>
+        <section id="products" class="section">
+          <div class="section-heading section-heading-featured glass fade-up fade-up-d1">
+            <div class="section-heading-copy">
+              <h2 id="sectionTitle">Produk Unggulan</h2>
+              <p>pilih aplikasi favoritmu disini</p>
+            </div>
+          </div>
+
+          <div class="category-slider fade-up fade-up-d1" data-category-slider>
+            <div class="category-track" aria-label="Filter kategori produk">
+              <button
+                type="button"
+                class="category-button"
+                data-category="entertainment"
+                data-active="false"
+              >
+                <i data-lucide="clapperboard" aria-hidden="true"></i>
+                <span>Entertainment</span>
+              </button>
+              <button type="button" class="category-button" data-category="video" data-active="false">
+                <i data-lucide="scissors" aria-hidden="true"></i>
+                <span>Video &amp; Edit</span>
+              </button>
+              <button type="button" class="category-button" data-category="desain" data-active="false">
+                <i data-lucide="palette" aria-hidden="true"></i>
+                <span>Desain</span>
+              </button>
+              <button type="button" class="category-button" data-category="semua" data-active="true">
+                <i data-lucide="layout-grid" aria-hidden="true"></i>
+                <span>Semua Produk</span>
+              </button>
+              <button type="button" class="category-button" data-category="ai" data-active="false">
+                <i data-lucide="bot" aria-hidden="true"></i>
+                <span>AI Tools</span>
+              </button>
+              <button type="button" class="category-button" data-category="musik" data-active="false">
+                <i data-lucide="music-4" aria-hidden="true"></i>
+                <span>Musik</span>
+              </button>
+              <button
+                type="button"
+                class="category-button"
+                data-category="komunikasi"
+                data-active="false"
+              >
+                <i data-lucide="message-circle" aria-hidden="true"></i>
+                <span>Komunikasi</span>
+              </button>
+              <button type="button" class="category-button" data-category="edukasi" data-active="false">
+                <i data-lucide="book-open" aria-hidden="true"></i>
+                <span>Edukasi</span>
+              </button>
+              <button type="button" class="category-button" data-category="cloud" data-active="false">
+                <i data-lucide="cloud" aria-hidden="true"></i>
+                <span>Cloud</span>
+              </button>
+              <button
+                type="button"
+                class="category-button"
+                data-category="fotografi"
+                data-active="false"
+              >
+                <i data-lucide="camera" aria-hidden="true"></i>
+                <span>Fotografi</span>
+              </button>
+            </div>
+            <div class="category-scroll-indicator category-scroll-indicator-left" aria-hidden="true">
+              <i data-lucide="chevron-left" aria-hidden="true"></i>
+            </div>
+            <div class="category-scroll-indicator category-scroll-indicator-right" aria-hidden="true">
+              <i data-lucide="chevron-right" aria-hidden="true"></i>
+            </div>
+          </div>
+
+          <div class="product-grid" id="productGrid"></div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="site-footer-card glass-strong">
+          <div class="footer-top">
+            <div class="footer-brand footer-brand-text-only">
+              <div class="brand-lockup">
+                <div class="brand-name" aria-label="Reiizam Store">
+                  <span class="brand-name-main">Reiizam</span>
+                  <span class="brand-name-accent">Store</span>
+                </div>
+                <div class="footer-copy">
+                  Langganan aplikasi premium yang lebih hemat, cepat, dan praktis.
+                </div>
+              </div>
+            </div>
+            <div class="footer-highlights" aria-label="Keunggulan toko">
+              <span class="footer-highlight">Harga hemat</span>
+              <span class="footer-highlight">Proses cepat</span>
+              <span class="footer-highlight">Order gampang</span>
+            </div>
+          </div>
+
+          <p class="footer-meta">
+            &copy; <span id="currentYear"></span> Reiizam Store. Semua hak cipta dilindungi.
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
